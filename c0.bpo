@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<org.eventb.core.poFile org.eventb.core.poStamp="0">
-<org.eventb.core.poPredicateSet name="ABSHYP" org.eventb.core.poStamp="0">
+<org.eventb.core.poFile org.eventb.core.poStamp="34">
+<org.eventb.core.poPredicateSet name="ABSHYP" org.eventb.core.poStamp="23">
 <org.eventb.core.poIdentifier name="BEVERAGE" org.eventb.core.type="ℙ(BEVERAGE)"/>
 <org.eventb.core.poIdentifier name="CIGAR" org.eventb.core.type="ℙ(CIGAR)"/>
 <org.eventb.core.poIdentifier name="HOUSE" org.eventb.core.type="ℙ(HOUSE)"/>
@@ -38,97 +38,97 @@
 <org.eventb.core.poIdentifier name="white" org.eventb.core.type="HOUSE"/>
 <org.eventb.core.poIdentifier name="yellow" org.eventb.core.type="HOUSE"/>
 </org.eventb.core.poPredicateSet>
-<org.eventb.core.poSequent name="hint1/WD" org.eventb.core.accurate="true" org.eventb.core.poDesc="Well-definedness of Axiom" org.eventb.core.poStamp="0">
+<org.eventb.core.poSequent name="hint1/WD" org.eventb.core.accurate="true" org.eventb.core.poDesc="Well-definedness of Axiom" org.eventb.core.poStamp="30">
 <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/EinsteinPuzzle/c0.bpo|org.eventb.core.poFile#c0|org.eventb.core.poPredicateSet#HYP1"/>
 <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="Brit∈dom(lives)∧lives∈NATION ⇸ HOUSE" org.eventb.core.source="/EinsteinPuzzle/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#_Jc68gBGPEeaL3ddvWYD66w"/>
 <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/EinsteinPuzzle/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#_Jc68gBGPEeaL3ddvWYD66w"/>
 <org.eventb.core.poSelHint name="SEQHYS" org.eventb.core.poSelHintFst="/EinsteinPuzzle/c0.bpo|org.eventb.core.poFile#c0|org.eventb.core.poPredicateSet#ABSHYP" org.eventb.core.poSelHintSnd="/EinsteinPuzzle/c0.bpo|org.eventb.core.poFile#c0|org.eventb.core.poPredicateSet#HYP1"/>
 </org.eventb.core.poSequent>
-<org.eventb.core.poSequent name="hint2/WD" org.eventb.core.accurate="true" org.eventb.core.poDesc="Well-definedness of Axiom" org.eventb.core.poStamp="0">
+<org.eventb.core.poSequent name="hint2/WD" org.eventb.core.accurate="true" org.eventb.core.poDesc="Well-definedness of Axiom" org.eventb.core.poStamp="30">
 <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/EinsteinPuzzle/c0.bpo|org.eventb.core.poFile#c0|org.eventb.core.poPredicateSet#HYP2"/>
 <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="Swede∈dom(keeps)∧keeps∈NATION ⇸ PET" org.eventb.core.source="/EinsteinPuzzle/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#_vfEd8BGPEeaL3ddvWYD66w"/>
 <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/EinsteinPuzzle/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#_vfEd8BGPEeaL3ddvWYD66w"/>
 <org.eventb.core.poSelHint name="SEQHYS" org.eventb.core.poSelHintFst="/EinsteinPuzzle/c0.bpo|org.eventb.core.poFile#c0|org.eventb.core.poPredicateSet#ABSHYP" org.eventb.core.poSelHintSnd="/EinsteinPuzzle/c0.bpo|org.eventb.core.poFile#c0|org.eventb.core.poPredicateSet#HYP2"/>
 </org.eventb.core.poSequent>
-<org.eventb.core.poSequent name="hint3/WD" org.eventb.core.accurate="true" org.eventb.core.poDesc="Well-definedness of Axiom" org.eventb.core.poStamp="0">
+<org.eventb.core.poSequent name="hint3/WD" org.eventb.core.accurate="true" org.eventb.core.poDesc="Well-definedness of Axiom" org.eventb.core.poStamp="30">
 <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/EinsteinPuzzle/c0.bpo|org.eventb.core.poFile#c0|org.eventb.core.poPredicateSet#HYP3"/>
 <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="Dane∈dom(drinks)∧drinks∈NATION ⇸ BEVERAGE" org.eventb.core.source="/EinsteinPuzzle/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#_vfFFABGPEeaL3ddvWYD66w"/>
 <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/EinsteinPuzzle/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#_vfFFABGPEeaL3ddvWYD66w"/>
 <org.eventb.core.poSelHint name="SEQHYS" org.eventb.core.poSelHintFst="/EinsteinPuzzle/c0.bpo|org.eventb.core.poFile#c0|org.eventb.core.poPredicateSet#ABSHYP" org.eventb.core.poSelHintSnd="/EinsteinPuzzle/c0.bpo|org.eventb.core.poFile#c0|org.eventb.core.poPredicateSet#HYP3"/>
 </org.eventb.core.poSequent>
-<org.eventb.core.poSequent name="hint4/WD" org.eventb.core.accurate="true" org.eventb.core.poDesc="Well-definedness of Axiom" org.eventb.core.poStamp="0">
+<org.eventb.core.poSequent name="hint4/WD" org.eventb.core.accurate="true" org.eventb.core.poDesc="Well-definedness of Axiom" org.eventb.core.poStamp="30">
 <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/EinsteinPuzzle/c0.bpo|org.eventb.core.poFile#c0|org.eventb.core.poPredicateSet#HYP4"/>
 <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="green∈dom(position)∧position∈HOUSE ⇸ ℤ∧white∈dom(position)" org.eventb.core.source="/EinsteinPuzzle/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#_yC-IoBGQEeaL3ddvWYD66w"/>
 <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/EinsteinPuzzle/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#_yC-IoBGQEeaL3ddvWYD66w"/>
 <org.eventb.core.poSelHint name="SEQHYS" org.eventb.core.poSelHintFst="/EinsteinPuzzle/c0.bpo|org.eventb.core.poFile#c0|org.eventb.core.poPredicateSet#ABSHYP" org.eventb.core.poSelHintSnd="/EinsteinPuzzle/c0.bpo|org.eventb.core.poFile#c0|org.eventb.core.poPredicateSet#HYP4"/>
 </org.eventb.core.poSequent>
-<org.eventb.core.poSequent name="hint5/WD" org.eventb.core.accurate="true" org.eventb.core.poDesc="Well-definedness of Axiom" org.eventb.core.poStamp="0">
+<org.eventb.core.poSequent name="hint5/WD" org.eventb.core.accurate="true" org.eventb.core.poDesc="Well-definedness of Axiom" org.eventb.core.poStamp="34">
 <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/EinsteinPuzzle/c0.bpo|org.eventb.core.poFile#c0|org.eventb.core.poPredicateSet#HYP5"/>
 <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="green∈dom(lives∼)∧lives∼∈HOUSE ⇸ NATION∧coffee∈dom(drinks∼)∧drinks∼∈BEVERAGE ⇸ NATION" org.eventb.core.source="/EinsteinPuzzle/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#_vfFFARGPEeaL3ddvWYD66w"/>
 <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/EinsteinPuzzle/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#_vfFFARGPEeaL3ddvWYD66w"/>
 <org.eventb.core.poSelHint name="SEQHYS" org.eventb.core.poSelHintFst="/EinsteinPuzzle/c0.bpo|org.eventb.core.poFile#c0|org.eventb.core.poPredicateSet#ABSHYP" org.eventb.core.poSelHintSnd="/EinsteinPuzzle/c0.bpo|org.eventb.core.poFile#c0|org.eventb.core.poPredicateSet#HYP5"/>
 </org.eventb.core.poSequent>
-<org.eventb.core.poSequent name="hint6/WD" org.eventb.core.accurate="true" org.eventb.core.poDesc="Well-definedness of Axiom" org.eventb.core.poStamp="0">
+<org.eventb.core.poSequent name="hint6/WD" org.eventb.core.accurate="true" org.eventb.core.poDesc="Well-definedness of Axiom" org.eventb.core.poStamp="34">
 <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/EinsteinPuzzle/c0.bpo|org.eventb.core.poFile#c0|org.eventb.core.poPredicateSet#HYP6"/>
-<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="Pall_Mall∈dom(smokes∼)∧smokes∼∈CIGAR ⇸ NATION∧bird∈dom(keeps∼)∧keeps∼∈PET ⇸ NATION" org.eventb.core.source="/EinsteinPuzzle/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#_6oMugBGPEeaL3ddvWYD66w"/>
-<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/EinsteinPuzzle/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#_6oMugBGPEeaL3ddvWYD66w"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="Pall_Mall∈dom(smokes∼)∧smokes∼∈CIGAR ⇸ NATION∧smokes∼(Pall_Mall)∈dom(keeps)∧keeps∈NATION ⇸ PET" org.eventb.core.source="/EinsteinPuzzle/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#_hiPnABHtEeaL3ddvWYD66w"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/EinsteinPuzzle/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#_hiPnABHtEeaL3ddvWYD66w"/>
 <org.eventb.core.poSelHint name="SEQHYS" org.eventb.core.poSelHintFst="/EinsteinPuzzle/c0.bpo|org.eventb.core.poFile#c0|org.eventb.core.poPredicateSet#ABSHYP" org.eventb.core.poSelHintSnd="/EinsteinPuzzle/c0.bpo|org.eventb.core.poFile#c0|org.eventb.core.poPredicateSet#HYP6"/>
 </org.eventb.core.poSequent>
-<org.eventb.core.poSequent name="hint7/WD" org.eventb.core.accurate="true" org.eventb.core.poDesc="Well-definedness of Axiom" org.eventb.core.poStamp="0">
+<org.eventb.core.poSequent name="hint7/WD" org.eventb.core.accurate="true" org.eventb.core.poDesc="Well-definedness of Axiom" org.eventb.core.poStamp="34">
 <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/EinsteinPuzzle/c0.bpo|org.eventb.core.poFile#c0|org.eventb.core.poPredicateSet#HYP7"/>
-<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="yellow∈dom(lives∼)∧lives∼∈HOUSE ⇸ NATION∧Dunhill∈dom(smokes∼)∧smokes∼∈CIGAR ⇸ NATION" org.eventb.core.source="/EinsteinPuzzle/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#_cwELsRGQEeaL3ddvWYD66w"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="yellow∈dom(lives∼)∧lives∼∈HOUSE ⇸ NATION∧lives∼(yellow)∈dom(smokes)∧smokes∈NATION ⇸ CIGAR" org.eventb.core.source="/EinsteinPuzzle/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#_cwELsRGQEeaL3ddvWYD66w"/>
 <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/EinsteinPuzzle/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#_cwELsRGQEeaL3ddvWYD66w"/>
 <org.eventb.core.poSelHint name="SEQHYS" org.eventb.core.poSelHintFst="/EinsteinPuzzle/c0.bpo|org.eventb.core.poFile#c0|org.eventb.core.poPredicateSet#ABSHYP" org.eventb.core.poSelHintSnd="/EinsteinPuzzle/c0.bpo|org.eventb.core.poFile#c0|org.eventb.core.poPredicateSet#HYP7"/>
 </org.eventb.core.poSequent>
-<org.eventb.core.poSequent name="hint8/WD" org.eventb.core.accurate="true" org.eventb.core.poDesc="Well-definedness of Axiom" org.eventb.core.poStamp="0">
+<org.eventb.core.poSequent name="hint8/WD" org.eventb.core.accurate="true" org.eventb.core.poDesc="Well-definedness of Axiom" org.eventb.core.poStamp="34">
 <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/EinsteinPuzzle/c0.bpo|org.eventb.core.poFile#c0|org.eventb.core.poPredicateSet#HYP8"/>
 <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="3∈dom(position∼)∧position∼∈ℤ ⇸ HOUSE∧position∼(3)∈dom(lives∼)∧lives∼∈HOUSE ⇸ NATION∧milk∈dom(drinks∼)∧drinks∼∈BEVERAGE ⇸ NATION" org.eventb.core.source="/EinsteinPuzzle/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#_-J-9wBGQEeaL3ddvWYD66w"/>
 <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/EinsteinPuzzle/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#_-J-9wBGQEeaL3ddvWYD66w"/>
 <org.eventb.core.poSelHint name="SEQHYS" org.eventb.core.poSelHintFst="/EinsteinPuzzle/c0.bpo|org.eventb.core.poFile#c0|org.eventb.core.poPredicateSet#ABSHYP" org.eventb.core.poSelHintSnd="/EinsteinPuzzle/c0.bpo|org.eventb.core.poFile#c0|org.eventb.core.poPredicateSet#HYP8"/>
 </org.eventb.core.poSequent>
-<org.eventb.core.poSequent name="hint9/WD" org.eventb.core.accurate="true" org.eventb.core.poDesc="Well-definedness of Axiom" org.eventb.core.poStamp="0">
+<org.eventb.core.poSequent name="hint9/WD" org.eventb.core.accurate="true" org.eventb.core.poDesc="Well-definedness of Axiom" org.eventb.core.poStamp="34">
 <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/EinsteinPuzzle/c0.bpo|org.eventb.core.poFile#c0|org.eventb.core.poPredicateSet#HYP9"/>
 <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="Norwegian∈dom(lives)∧lives∈NATION ⇸ HOUSE∧lives(Norwegian)∈dom(position)∧position∈HOUSE ⇸ ℤ" org.eventb.core.source="/EinsteinPuzzle/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#_JNP24BGREeaL3ddvWYD66w"/>
 <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/EinsteinPuzzle/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#_JNP24BGREeaL3ddvWYD66w"/>
 <org.eventb.core.poSelHint name="SEQHYS" org.eventb.core.poSelHintFst="/EinsteinPuzzle/c0.bpo|org.eventb.core.poFile#c0|org.eventb.core.poPredicateSet#ABSHYP" org.eventb.core.poSelHintSnd="/EinsteinPuzzle/c0.bpo|org.eventb.core.poFile#c0|org.eventb.core.poPredicateSet#HYP9"/>
 </org.eventb.core.poSequent>
-<org.eventb.core.poSequent name="hint10/WD" org.eventb.core.accurate="true" org.eventb.core.poDesc="Well-definedness of Axiom" org.eventb.core.poStamp="0">
+<org.eventb.core.poSequent name="hint10/WD" org.eventb.core.accurate="true" org.eventb.core.poDesc="Well-definedness of Axiom" org.eventb.core.poStamp="34">
 <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/EinsteinPuzzle/c0.bpo|org.eventb.core.poFile#c0|org.eventb.core.poPredicateSet#HYP:"/>
 <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="blend∈dom(smokes∼)∧smokes∼∈CIGAR ⇸ NATION∧smokes∼(blend)∈dom(lives)∧lives∈NATION ⇸ HOUSE∧lives(smokes∼(blend))∈dom(position)∧position∈HOUSE ⇸ ℤ∧cat∈dom(keeps∼)∧keeps∼∈PET ⇸ NATION∧keeps∼(cat)∈dom(lives)∧lives(keeps∼(cat))∈dom(position)" org.eventb.core.source="/EinsteinPuzzle/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#_WDr90BGREeaL3ddvWYD66w"/>
 <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/EinsteinPuzzle/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#_WDr90BGREeaL3ddvWYD66w"/>
 <org.eventb.core.poSelHint name="SEQHYS" org.eventb.core.poSelHintFst="/EinsteinPuzzle/c0.bpo|org.eventb.core.poFile#c0|org.eventb.core.poPredicateSet#ABSHYP" org.eventb.core.poSelHintSnd="/EinsteinPuzzle/c0.bpo|org.eventb.core.poFile#c0|org.eventb.core.poPredicateSet#HYP:"/>
 </org.eventb.core.poSequent>
-<org.eventb.core.poSequent name="hint11/WD" org.eventb.core.accurate="true" org.eventb.core.poDesc="Well-definedness of Axiom" org.eventb.core.poStamp="0">
+<org.eventb.core.poSequent name="hint11/WD" org.eventb.core.accurate="true" org.eventb.core.poDesc="Well-definedness of Axiom" org.eventb.core.poStamp="34">
 <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/EinsteinPuzzle/c0.bpo|org.eventb.core.poFile#c0|org.eventb.core.poPredicateSet#HYP;"/>
 <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="horse∈dom(keeps∼)∧keeps∼∈PET ⇸ NATION∧keeps∼(horse)∈dom(lives)∧lives∈NATION ⇸ HOUSE∧lives(keeps∼(horse))∈dom(position)∧position∈HOUSE ⇸ ℤ∧Dunhill∈dom(smokes∼)∧smokes∼∈CIGAR ⇸ NATION∧smokes∼(Dunhill)∈dom(lives)∧lives(smokes∼(Dunhill))∈dom(position)" org.eventb.core.source="/EinsteinPuzzle/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#_yU_QQBGREeaL3ddvWYD66w"/>
 <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/EinsteinPuzzle/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#_yU_QQBGREeaL3ddvWYD66w"/>
 <org.eventb.core.poSelHint name="SEQHYS" org.eventb.core.poSelHintFst="/EinsteinPuzzle/c0.bpo|org.eventb.core.poFile#c0|org.eventb.core.poPredicateSet#ABSHYP" org.eventb.core.poSelHintSnd="/EinsteinPuzzle/c0.bpo|org.eventb.core.poFile#c0|org.eventb.core.poPredicateSet#HYP;"/>
 </org.eventb.core.poSequent>
-<org.eventb.core.poSequent name="hint12/WD" org.eventb.core.accurate="true" org.eventb.core.poDesc="Well-definedness of Axiom" org.eventb.core.poStamp="0">
+<org.eventb.core.poSequent name="hint12/WD" org.eventb.core.accurate="true" org.eventb.core.poDesc="Well-definedness of Axiom" org.eventb.core.poStamp="34">
 <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/EinsteinPuzzle/c0.bpo|org.eventb.core.poFile#c0|org.eventb.core.poPredicateSet#HYP="/>
 <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="Blue_Master∈dom(smokes∼)∧smokes∼∈CIGAR ⇸ NATION∧beer∈dom(drinks∼)∧drinks∼∈BEVERAGE ⇸ NATION" org.eventb.core.source="/EinsteinPuzzle/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#_DN7jUBGSEeaL3ddvWYD66w"/>
 <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/EinsteinPuzzle/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#_DN7jUBGSEeaL3ddvWYD66w"/>
 <org.eventb.core.poSelHint name="SEQHYS" org.eventb.core.poSelHintFst="/EinsteinPuzzle/c0.bpo|org.eventb.core.poFile#c0|org.eventb.core.poPredicateSet#ABSHYP" org.eventb.core.poSelHintSnd="/EinsteinPuzzle/c0.bpo|org.eventb.core.poFile#c0|org.eventb.core.poPredicateSet#HYP="/>
 </org.eventb.core.poSequent>
-<org.eventb.core.poSequent name="hint13/WD" org.eventb.core.accurate="true" org.eventb.core.poDesc="Well-definedness of Axiom" org.eventb.core.poStamp="0">
+<org.eventb.core.poSequent name="hint13/WD" org.eventb.core.accurate="true" org.eventb.core.poDesc="Well-definedness of Axiom" org.eventb.core.poStamp="34">
 <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/EinsteinPuzzle/c0.bpo|org.eventb.core.poFile#c0|org.eventb.core.poPredicateSet#HYP&gt;"/>
 <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="German∈dom(smokes)∧smokes∈NATION ⇸ CIGAR" org.eventb.core.source="/EinsteinPuzzle/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#_DN8KYBGSEeaL3ddvWYD66w"/>
 <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/EinsteinPuzzle/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#_DN8KYBGSEeaL3ddvWYD66w"/>
 <org.eventb.core.poSelHint name="SEQHYS" org.eventb.core.poSelHintFst="/EinsteinPuzzle/c0.bpo|org.eventb.core.poFile#c0|org.eventb.core.poPredicateSet#ABSHYP" org.eventb.core.poSelHintSnd="/EinsteinPuzzle/c0.bpo|org.eventb.core.poFile#c0|org.eventb.core.poPredicateSet#HYP&gt;"/>
 </org.eventb.core.poSequent>
-<org.eventb.core.poSequent name="hint14/WD" org.eventb.core.accurate="true" org.eventb.core.poDesc="Well-definedness of Axiom" org.eventb.core.poStamp="0">
+<org.eventb.core.poSequent name="hint14/WD" org.eventb.core.accurate="true" org.eventb.core.poDesc="Well-definedness of Axiom" org.eventb.core.poStamp="34">
 <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/EinsteinPuzzle/c0.bpo|org.eventb.core.poFile#c0|org.eventb.core.poPredicateSet#HYP?"/>
 <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="Norwegian∈dom(lives)∧lives∈NATION ⇸ HOUSE∧lives(Norwegian)∈dom(position)∧position∈HOUSE ⇸ ℤ∧blue∈dom(position)" org.eventb.core.source="/EinsteinPuzzle/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#_DN8KYRGSEeaL3ddvWYD66w"/>
 <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/EinsteinPuzzle/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#_DN8KYRGSEeaL3ddvWYD66w"/>
 <org.eventb.core.poSelHint name="SEQHYS" org.eventb.core.poSelHintFst="/EinsteinPuzzle/c0.bpo|org.eventb.core.poFile#c0|org.eventb.core.poPredicateSet#ABSHYP" org.eventb.core.poSelHintSnd="/EinsteinPuzzle/c0.bpo|org.eventb.core.poFile#c0|org.eventb.core.poPredicateSet#HYP?"/>
 </org.eventb.core.poSequent>
-<org.eventb.core.poSequent name="hint15/WD" org.eventb.core.accurate="true" org.eventb.core.poDesc="Well-definedness of Axiom" org.eventb.core.poStamp="0">
+<org.eventb.core.poSequent name="hint15/WD" org.eventb.core.accurate="true" org.eventb.core.poDesc="Well-definedness of Axiom" org.eventb.core.poStamp="34">
 <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/EinsteinPuzzle/c0.bpo|org.eventb.core.poFile#c0|org.eventb.core.poPredicateSet#HYP@"/>
 <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="blend∈dom(smokes∼)∧smokes∼∈CIGAR ⇸ NATION∧smokes∼(blend)∈dom(lives)∧lives∈NATION ⇸ HOUSE∧lives(smokes∼(blend))∈dom(position)∧position∈HOUSE ⇸ ℤ∧water∈dom(drinks∼)∧drinks∼∈BEVERAGE ⇸ NATION∧drinks∼(water)∈dom(lives)∧lives(drinks∼(water))∈dom(position)" org.eventb.core.source="/EinsteinPuzzle/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#_MFn8wBGSEeaL3ddvWYD66w"/>
 <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/EinsteinPuzzle/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#_MFn8wBGSEeaL3ddvWYD66w"/>
 <org.eventb.core.poSelHint name="SEQHYS" org.eventb.core.poSelHintFst="/EinsteinPuzzle/c0.bpo|org.eventb.core.poFile#c0|org.eventb.core.poPredicateSet#ABSHYP" org.eventb.core.poSelHintSnd="/EinsteinPuzzle/c0.bpo|org.eventb.core.poFile#c0|org.eventb.core.poPredicateSet#HYP@"/>
 </org.eventb.core.poSequent>
-<org.eventb.core.poPredicateSet name="HYP1" org.eventb.core.parentSet="/EinsteinPuzzle/c0.bpo|org.eventb.core.poFile#c0|org.eventb.core.poPredicateSet#ABSHYP" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicateSet name="HYP1" org.eventb.core.parentSet="/EinsteinPuzzle/c0.bpo|org.eventb.core.poFile#c0|org.eventb.core.poPredicateSet#ABSHYP" org.eventb.core.poStamp="23">
 <org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="partition(HOUSE,{blue},{green},{red},{white},{yellow})" org.eventb.core.source="/EinsteinPuzzle/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#_twFT8hGMEeaL3ddvWYD66w"/>
 <org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="partition(NATION,{Brit},{Dane},{German},{Norwegian},{Swede})" org.eventb.core.source="/EinsteinPuzzle/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#_twF7ABGMEeaL3ddvWYD66w"/>
 <org.eventb.core.poPredicate name="PRD2" org.eventb.core.predicate="partition(BEVERAGE,{beer},{coffee},{milk},{tea},{water})" org.eventb.core.source="/EinsteinPuzzle/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#_twF7ARGMEeaL3ddvWYD66w"/>
@@ -141,49 +141,49 @@
 <org.eventb.core.poPredicate name="PRD9" org.eventb.core.predicate="keeps∈NATION ⤖ PET" org.eventb.core.source="/EinsteinPuzzle/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#_GjOoABGOEeaL3ddvWYD66w"/>
 <org.eventb.core.poPredicate name="PRD10" org.eventb.core.predicate="position∈HOUSE ⤖ HOUSE_POSITION" org.eventb.core.source="/EinsteinPuzzle/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#_oAhMQBGQEeaL3ddvWYD66w"/>
 </org.eventb.core.poPredicateSet>
-<org.eventb.core.poPredicateSet name="HYP2" org.eventb.core.parentSet="/EinsteinPuzzle/c0.bpo|org.eventb.core.poFile#c0|org.eventb.core.poPredicateSet#HYP1" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicateSet name="HYP2" org.eventb.core.parentSet="/EinsteinPuzzle/c0.bpo|org.eventb.core.poFile#c0|org.eventb.core.poPredicateSet#HYP1" org.eventb.core.poStamp="23">
 <org.eventb.core.poPredicate name="PRD11" org.eventb.core.predicate="lives(Brit)=red" org.eventb.core.source="/EinsteinPuzzle/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#_Jc68gBGPEeaL3ddvWYD66w"/>
 </org.eventb.core.poPredicateSet>
-<org.eventb.core.poPredicateSet name="HYP3" org.eventb.core.parentSet="/EinsteinPuzzle/c0.bpo|org.eventb.core.poFile#c0|org.eventb.core.poPredicateSet#HYP2" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicateSet name="HYP3" org.eventb.core.parentSet="/EinsteinPuzzle/c0.bpo|org.eventb.core.poFile#c0|org.eventb.core.poPredicateSet#HYP2" org.eventb.core.poStamp="23">
 <org.eventb.core.poPredicate name="PRD12" org.eventb.core.predicate="keeps(Swede)=dog" org.eventb.core.source="/EinsteinPuzzle/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#_vfEd8BGPEeaL3ddvWYD66w"/>
 </org.eventb.core.poPredicateSet>
-<org.eventb.core.poPredicateSet name="HYP4" org.eventb.core.parentSet="/EinsteinPuzzle/c0.bpo|org.eventb.core.poFile#c0|org.eventb.core.poPredicateSet#HYP3" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicateSet name="HYP4" org.eventb.core.parentSet="/EinsteinPuzzle/c0.bpo|org.eventb.core.poFile#c0|org.eventb.core.poPredicateSet#HYP3" org.eventb.core.poStamp="23">
 <org.eventb.core.poPredicate name="PRD13" org.eventb.core.predicate="drinks(Dane)=tea" org.eventb.core.source="/EinsteinPuzzle/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#_vfFFABGPEeaL3ddvWYD66w"/>
 </org.eventb.core.poPredicateSet>
-<org.eventb.core.poPredicateSet name="HYP5" org.eventb.core.parentSet="/EinsteinPuzzle/c0.bpo|org.eventb.core.poFile#c0|org.eventb.core.poPredicateSet#HYP4" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicateSet name="HYP5" org.eventb.core.parentSet="/EinsteinPuzzle/c0.bpo|org.eventb.core.poFile#c0|org.eventb.core.poPredicateSet#HYP4" org.eventb.core.poStamp="23">
 <org.eventb.core.poPredicate name="PRD14" org.eventb.core.predicate="position(green) − position(white)=−1" org.eventb.core.source="/EinsteinPuzzle/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#_yC-IoBGQEeaL3ddvWYD66w"/>
 </org.eventb.core.poPredicateSet>
-<org.eventb.core.poPredicateSet name="HYP6" org.eventb.core.parentSet="/EinsteinPuzzle/c0.bpo|org.eventb.core.poFile#c0|org.eventb.core.poPredicateSet#HYP5" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicateSet name="HYP6" org.eventb.core.parentSet="/EinsteinPuzzle/c0.bpo|org.eventb.core.poFile#c0|org.eventb.core.poPredicateSet#HYP5" org.eventb.core.poStamp="34">
 <org.eventb.core.poPredicate name="PRD15" org.eventb.core.predicate="lives∼(green)=drinks∼(coffee)" org.eventb.core.source="/EinsteinPuzzle/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#_vfFFARGPEeaL3ddvWYD66w"/>
 </org.eventb.core.poPredicateSet>
-<org.eventb.core.poPredicateSet name="HYP7" org.eventb.core.parentSet="/EinsteinPuzzle/c0.bpo|org.eventb.core.poFile#c0|org.eventb.core.poPredicateSet#HYP6" org.eventb.core.poStamp="0">
-<org.eventb.core.poPredicate name="PRD16" org.eventb.core.predicate="smokes∼(Pall_Mall)=keeps∼(bird)" org.eventb.core.source="/EinsteinPuzzle/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#_6oMugBGPEeaL3ddvWYD66w"/>
+<org.eventb.core.poPredicateSet name="HYP7" org.eventb.core.parentSet="/EinsteinPuzzle/c0.bpo|org.eventb.core.poFile#c0|org.eventb.core.poPredicateSet#HYP6" org.eventb.core.poStamp="34">
+<org.eventb.core.poPredicate name="PRD16" org.eventb.core.predicate="keeps(smokes∼(Pall_Mall))=bird" org.eventb.core.source="/EinsteinPuzzle/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#_hiPnABHtEeaL3ddvWYD66w"/>
 </org.eventb.core.poPredicateSet>
-<org.eventb.core.poPredicateSet name="HYP8" org.eventb.core.parentSet="/EinsteinPuzzle/c0.bpo|org.eventb.core.poFile#c0|org.eventb.core.poPredicateSet#HYP7" org.eventb.core.poStamp="0">
-<org.eventb.core.poPredicate name="PRD17" org.eventb.core.predicate="lives∼(yellow)=smokes∼(Dunhill)" org.eventb.core.source="/EinsteinPuzzle/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#_cwELsRGQEeaL3ddvWYD66w"/>
+<org.eventb.core.poPredicateSet name="HYP8" org.eventb.core.parentSet="/EinsteinPuzzle/c0.bpo|org.eventb.core.poFile#c0|org.eventb.core.poPredicateSet#HYP7" org.eventb.core.poStamp="34">
+<org.eventb.core.poPredicate name="PRD17" org.eventb.core.predicate="smokes(lives∼(yellow))=Dunhill" org.eventb.core.source="/EinsteinPuzzle/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#_cwELsRGQEeaL3ddvWYD66w"/>
 </org.eventb.core.poPredicateSet>
-<org.eventb.core.poPredicateSet name="HYP9" org.eventb.core.parentSet="/EinsteinPuzzle/c0.bpo|org.eventb.core.poFile#c0|org.eventb.core.poPredicateSet#HYP8" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicateSet name="HYP9" org.eventb.core.parentSet="/EinsteinPuzzle/c0.bpo|org.eventb.core.poFile#c0|org.eventb.core.poPredicateSet#HYP8" org.eventb.core.poStamp="34">
 <org.eventb.core.poPredicate name="PRD18" org.eventb.core.predicate="lives∼(position∼(3))=drinks∼(milk)" org.eventb.core.source="/EinsteinPuzzle/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#_-J-9wBGQEeaL3ddvWYD66w"/>
 </org.eventb.core.poPredicateSet>
-<org.eventb.core.poPredicateSet name="HYP:" org.eventb.core.parentSet="/EinsteinPuzzle/c0.bpo|org.eventb.core.poFile#c0|org.eventb.core.poPredicateSet#HYP9" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicateSet name="HYP:" org.eventb.core.parentSet="/EinsteinPuzzle/c0.bpo|org.eventb.core.poFile#c0|org.eventb.core.poPredicateSet#HYP9" org.eventb.core.poStamp="34">
 <org.eventb.core.poPredicate name="PRD19" org.eventb.core.predicate="position(lives(Norwegian))=1" org.eventb.core.source="/EinsteinPuzzle/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#_JNP24BGREeaL3ddvWYD66w"/>
 </org.eventb.core.poPredicateSet>
-<org.eventb.core.poPredicateSet name="HYP;" org.eventb.core.parentSet="/EinsteinPuzzle/c0.bpo|org.eventb.core.poFile#c0|org.eventb.core.poPredicateSet#HYP:" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicateSet name="HYP;" org.eventb.core.parentSet="/EinsteinPuzzle/c0.bpo|org.eventb.core.poFile#c0|org.eventb.core.poPredicateSet#HYP:" org.eventb.core.poStamp="34">
 <org.eventb.core.poPredicate name="PRD20" org.eventb.core.predicate="position(lives(smokes∼(blend))) − position(lives(keeps∼(cat)))∈{1,−1}" org.eventb.core.source="/EinsteinPuzzle/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#_WDr90BGREeaL3ddvWYD66w"/>
 </org.eventb.core.poPredicateSet>
-<org.eventb.core.poPredicateSet name="HYP=" org.eventb.core.parentSet="/EinsteinPuzzle/c0.bpo|org.eventb.core.poFile#c0|org.eventb.core.poPredicateSet#HYP;" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicateSet name="HYP=" org.eventb.core.parentSet="/EinsteinPuzzle/c0.bpo|org.eventb.core.poFile#c0|org.eventb.core.poPredicateSet#HYP;" org.eventb.core.poStamp="34">
 <org.eventb.core.poPredicate name="PRD21" org.eventb.core.predicate="position(lives(keeps∼(horse))) − position(lives(smokes∼(Dunhill)))∈{1,−1}" org.eventb.core.source="/EinsteinPuzzle/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#_yU_QQBGREeaL3ddvWYD66w"/>
 </org.eventb.core.poPredicateSet>
-<org.eventb.core.poPredicateSet name="HYP&gt;" org.eventb.core.parentSet="/EinsteinPuzzle/c0.bpo|org.eventb.core.poFile#c0|org.eventb.core.poPredicateSet#HYP=" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicateSet name="HYP&gt;" org.eventb.core.parentSet="/EinsteinPuzzle/c0.bpo|org.eventb.core.poFile#c0|org.eventb.core.poPredicateSet#HYP=" org.eventb.core.poStamp="34">
 <org.eventb.core.poPredicate name="PRD22" org.eventb.core.predicate="smokes∼(Blue_Master)=drinks∼(beer)" org.eventb.core.source="/EinsteinPuzzle/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#_DN7jUBGSEeaL3ddvWYD66w"/>
 </org.eventb.core.poPredicateSet>
-<org.eventb.core.poPredicateSet name="HYP?" org.eventb.core.parentSet="/EinsteinPuzzle/c0.bpo|org.eventb.core.poFile#c0|org.eventb.core.poPredicateSet#HYP&gt;" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicateSet name="HYP?" org.eventb.core.parentSet="/EinsteinPuzzle/c0.bpo|org.eventb.core.poFile#c0|org.eventb.core.poPredicateSet#HYP&gt;" org.eventb.core.poStamp="34">
 <org.eventb.core.poPredicate name="PRD23" org.eventb.core.predicate="smokes(German)=Prince" org.eventb.core.source="/EinsteinPuzzle/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#_DN8KYBGSEeaL3ddvWYD66w"/>
 </org.eventb.core.poPredicateSet>
-<org.eventb.core.poPredicateSet name="HYP@" org.eventb.core.parentSet="/EinsteinPuzzle/c0.bpo|org.eventb.core.poFile#c0|org.eventb.core.poPredicateSet#HYP?" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicateSet name="HYP@" org.eventb.core.parentSet="/EinsteinPuzzle/c0.bpo|org.eventb.core.poFile#c0|org.eventb.core.poPredicateSet#HYP?" org.eventb.core.poStamp="34">
 <org.eventb.core.poPredicate name="PRD24" org.eventb.core.predicate="position(lives(Norwegian)) − position(blue)∈{1,−1}" org.eventb.core.source="/EinsteinPuzzle/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#_DN8KYRGSEeaL3ddvWYD66w"/>
 </org.eventb.core.poPredicateSet>
-<org.eventb.core.poPredicateSet name="ALLHYP" org.eventb.core.parentSet="/EinsteinPuzzle/c0.bpo|org.eventb.core.poFile#c0|org.eventb.core.poPredicateSet#HYP@" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicateSet name="ALLHYP" org.eventb.core.parentSet="/EinsteinPuzzle/c0.bpo|org.eventb.core.poFile#c0|org.eventb.core.poPredicateSet#HYP@" org.eventb.core.poStamp="34">
 <org.eventb.core.poPredicate name="PRD25" org.eventb.core.predicate="position(lives(smokes∼(blend))) − position(lives(drinks∼(water)))∈{1,−1}" org.eventb.core.source="/EinsteinPuzzle/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#_MFn8wBGSEeaL3ddvWYD66w"/>
 </org.eventb.core.poPredicateSet>
 </org.eventb.core.poFile>
